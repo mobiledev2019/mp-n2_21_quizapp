@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+    </group>
+
+    <item android:title="Đề thi trắc nghiệm">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/montoan"
+                    android:icon="@drawable/cauhoi"
+                    android:title="Môn GDCD" />
+                <item
+                    android:id="@+id/monly"
+                    android:icon="@drawable/tracnghiem"
+                    android:title="Môn Vật Lý" />
+                <item
+                    android:id="@+id/monhoa"
+                    android:icon="@drawable/cauhoi"
+                    android:title="Môn Hóa Học" />
+                <item
+                    android:id="@+id/monsinh"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Môn Sinh Học" />
+                <item
+                    android:id="@+id/search"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Tìm kiếm câu hỏi" />
+                <item
+                    android:id="@+id/score"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Danh sách điểm" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
